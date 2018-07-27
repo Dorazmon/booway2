@@ -11,17 +11,16 @@ public class Test
         MouseInterface mouse = new RazerMouse();
         computer.setKeyBoard(keyBoard);
         computer.setMouse(mouse);
-        System.out.println("---µçÄÔµÄcup,ÏÔ¿¨,ÄÚ´æ---");
+        System.out.println("---ï¿½ï¿½ï¿½Ôµï¿½cup,ï¿½Ô¿ï¿½,ï¿½Ú´ï¿½---");
         computer.getCpu();
         computer.getVideoCard();
         computer.getMemory();
-        System.out.println("¼üÅÌµÄÆ·ÅÆ£º" + computer.getKeyBoard().getKeyBoardBrand());
-        System.out.println("¼üÅÌµÄ¼Û¸ñ£º" + computer.getKeyBoard().getKeyBoardPrice() + "Ôª");
-        System.out.println("¼üÅÌµÄÑÕÉ«£º" + computer.getKeyBoard().getKeyBoardColor());
-        System.out.println("Êó±êµÄÆ·ÅÆ£º" + computer.getMouse().getMouseBrand());
-        System.out.println("Êó±êµÄ¼Û¸ñ£º" + computer.getMouse().getMousePrice() + "Ôª");
-        System.out.println("Êó±êµÄÑÕÉ«£º" + computer.getMouse().getMouseColor());
+        System.out.println("ï¿½ï¿½ï¿½Ìµï¿½Æ·ï¿½Æ£ï¿½" + computer.getKeyBoard().getKeyBoardBrand());
+        System.out.println("ï¿½ï¿½ï¿½ÌµÄ¼Û¸ï¿½" + computer.getKeyBoard().getKeyBoardPrice() + "Ôª");
+        System.out.println("ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½É«ï¿½ï¿½" + computer.getKeyBoard().getKeyBoardColor());
+        System.out.println("ï¿½ï¿½ï¿½ï¿½Æ·ï¿½Æ£ï¿½" + computer.getMouse().getMouseBrand());
+        System.out.println("ï¿½ï¿½ï¿½Ä¼Û¸ï¿½" + computer.getMouse().getMousePrice() + "Ôª");
+        System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«ï¿½ï¿½" + computer.getMouse().getMouseColor());
 
     }
-
 }
