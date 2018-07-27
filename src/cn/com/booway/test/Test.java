@@ -21,6 +21,7 @@ public class Test
         System.out.println("鼠标的品牌：" + computer.getMouse().getMouseBrand());
         System.out.println("鼠标的价格：" + computer.getMouse().getMousePrice() + "元");
         System.out.println("鼠标的颜色：" + computer.getMouse().getMouseColor());
+        //git测试
 
     }
 }
